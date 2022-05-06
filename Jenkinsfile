@@ -43,5 +43,11 @@ stages {
        echo "Deploy"
       }
     }
+	
+     stage('Health check of App') {
+      steps {
+       echo "Health check status of App"
+      }
+    }
 }    
 }
